@@ -21,7 +21,7 @@ Dog.Speak "Dog Energyzer Food, please."
 Dog.Play "Eat2"
 Dog.MoveTo 700, 330
 Dog.Play "GestureRight"
-Dog.Speak "This is the end, this is Dog, and now read the Dog's message located here."
+Dog.Speak "This is the end, this is Dog, and now read the Dog's message located down here."
 
 [Commands]
 MenuName=MASH Menu
