@@ -1,0 +1,22 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Dog=Dog.acs
+
+[LanguageIDs]
+
+[Script]
+Dog.Show
+Dog.Speak "Hello! I am Dog!"
+Dog.Speak "I have the habillity of read my calendar in few seconds!"
+Dog.Play "Read"
+Dog.Speak "In the " & GetTimeOfDay() & "from the 16:20 \map=""after the midday or before noon""=""PM\AM""\, i will take an awesome python script."
+Dog.Speak "Now let's check the Awesome Facts of the day."
+Dog.Play "Read"
+Dog.Speak "Human beings can use only a small fraction of Earth's water. In school, we were taught that most (specifically, 71 percent) of the planet's surface is covered in water. While that's true, humans can use only 0.007 percent of that water. Pretty cool, or great, or confuse, no?"
+
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
