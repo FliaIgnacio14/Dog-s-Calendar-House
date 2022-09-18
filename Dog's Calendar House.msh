@@ -15,7 +15,13 @@ Dog.Speak "In the " & GetTimeOfDay() & "from the 16:20 \map=""before noon""=""AM
 Dog.Speak "Now let's check the Awesome Facts of the day."
 Dog.Play "Read"
 Dog.Speak "Human beings can use only a small fraction of Earth's water. In school, we were taught that most (specifically, 71 percent) of the planet's surface is covered in water. While that's true, humans can use only 0.007 percent of that water. Pretty cool, or great, or confuse, no?"
-
+Dog.Speak "Now i will eat for more energy."
+Dog.Play "Eat1"
+Dog.Speak "Dog Energyzer Food, please."
+Dog.Play "Eat2"
+Dog.MoveTo 700, 330
+Dog.Play "GestureRight"
+Dog.Speak "This is the end, this is Dog, and now read the Dog's message located here."
 
 [Commands]
 MenuName=MASH Menu
